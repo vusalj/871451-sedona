@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Vusal Jafarov](https://up.htmlacademy.ru/htmlcss/23/user/871451).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Пономарёва](https://up.htmlacademy.ru/htmlcss/23/user/153610).
 
 ---
 
