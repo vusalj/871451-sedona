@@ -29,14 +29,43 @@
               <b class="small-city">Седона &ndash;небольшой городок в Аризоне, заслуживающий большего! </b>
               <p class="sedona-cool">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
      	  </section>
-  <!--Часть кода отсутсвует-->   	
+ 	
      	  <section class="interest-side">
+          <h2 class="visually-hidden">Поиск гостиниц</h2>
             	<b>Заинтересовались?</b>
             	<p>Укажите предполагаемые даты поездки, <br>
             	и мы покажем вам лучшие предложения гостиниц в седоне</p>
               <a class="search-hotels" href="#">Поиск гостиницы в Седоне</a>
+        </section>      
+        <section class="map">
+          <h2 class="visually-hidden">Форма поиска отелей</h2>
+          <form class="searching-form" action="https://echo.htmlacademy.ru" method="post">
+            <label class="entering" for="entry-date">Дата заезда:
+              <a class="enter" href="#"><span class="calendar"></span></a>
+            </label>
+            <input type="text" id="entry-date" name="entry-date" value="24 апреля 2017"> 
+            <label class="departure" for="departure-date">Дата выезда:
+              <a class="departure-time" href="#"><span class="calendar"></span></a>
+            </label>
+            <input type="text" id="departure-date" name="departure-date" value="4 июля 2017">
+            <ul class="persons">
+              <li class="adult"> 
+                <label class="adult-sum" for="amount-of-adult">Взрослые</label>
+                <button type="button" name="adult-minus"><span class="minus-icon"></span></button>
+                <input type="text" id="amount-of-adult" name="amount-of-adult" value="2">
+                <button type="button" name="adult-plus"><span class="plus-icon"></span></button>
+              </li>
+              <li class="children">
+                <label for="child-sum" for="amount-of-children">Дети</label>
+                <button type="button" name="child-minus"><span class="minus-icon"></span></button>
+                <input type="text" id="amount-of-children" name="amount-of-children" value="0">
+                <button type="button" name="child-plus"><span class="plus-icon"></span></button>
+              </li>  
+            </ul> 
+          </form>
+          <button type="submit">Найти</button>
         </section>
-        	
+        
        </main> 
         <footer class="main-footer">
         	<div class="footer-left-sign">
