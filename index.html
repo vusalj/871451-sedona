@@ -6,7 +6,7 @@
   </head>
   <body>
   	<header class="main-header">
-  		<a class="main-logo" href="index.html">
+  		<a class="main-logo">
   		  <img src="img/logo-sedona.png" width="140" height="71" alt="Logo of Sedona">
   		</a>
   		
@@ -41,11 +41,11 @@
           <h2 class="visually-hidden">Форма поиска отелей</h2>
           <form class="searching-form" action="https://echo.htmlacademy.ru" method="post">
             <label class="entering" for="entry-date">Дата заезда:
-              <a class="enter" href="#"><span class="calendar"></span></a>
+              <a class="enter" href="#"></a>
             </label>
             <input type="text" id="entry-date" name="entry-date" value="24 апреля 2017"> 
             <label class="departure" for="departure-date">Дата выезда:
-              <a class="departure-time" href="#"><span class="calendar"></span></a>
+              <a class="departure-time" href="#"></a>
             </label>
             <input type="text" id="departure-date" name="departure-date" value="4 июля 2017">
             <ul class="persons">
@@ -53,17 +53,18 @@
                 <label class="adult-sum" for="amount-of-adult">Взрослые</label>
                 <button type="button" name="adult-minus"><span class="minus-icon"></span></button>
                 <input type="text" id="amount-of-adult" name="amount-of-adult" value="2">
-                <button type="button" name="adult-plus"><span class="plus-icon"></span></button>
+                <button type="button" name="adult-plus"></button>
               </li>
               <li class="children">
                 <label for="child-sum" for="amount-of-children">Дети</label>
                 <button type="button" name="child-minus"><span class="minus-icon"></span></button>
                 <input type="text" id="amount-of-children" name="amount-of-children" value="0">
-                <button type="button" name="child-plus"><span class="plus-icon"></span></button>
+                <button type="button" name="child-plus"></button>
               </li>  
             </ul> 
+            <button type="submit">Найти</button>
           </form>
-          <button type="submit">Найти</button>
+          
         </section>
         
        </main> 
@@ -72,9 +73,9 @@
         		<a href="#">#visitsedona</a>
         	</div>
         	<div class="footer-social">
-        		<a class="social-icon twitter-icon" href="#"></a>
-        		<a class="social-icon facebook-icon" href="#"></a>
-        		<a class="social-icon youtube-icon" href="#"></a>
+        		<a class="social-icon twitter-icon" href="#"><h3 class="visually-hidden">twitter</h3></a>
+            <a class="social-icon facebook-icon" href="#"><h3  class="visually-hidden">facebook</h3></a>
+            <a class="social-icon youtube-icon" href="#"><h3  class="visually-hidden">youtube</h3></a>
         	</div>
         	<div>
         		<a href="https://htmlacademy.ru/intensive/htmlcss">
