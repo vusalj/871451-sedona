@@ -1,0 +1,92 @@
+body {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    background-color:#FFFFFF;
+}
+a {
+	text-decoration:none;
+}
+.main-navigation{
+	font-size:14px;
+	font-family:"PT Sans";
+	color:#000000;
+	background-color:#FFFFFF;
+	font-weight:bold;
+	
+}
+.site-navigation{
+	list-style: none;
+}
+.site-navigation a{
+	color:#000000;
+}
+.site-navigation a:hover,
+.site-navigation a:focus{
+color:#7FBFF6;
+}
+.about-sedona{
+  font-size: 21px;
+  font-family: "PT Sans";
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.238;
+  
+}
+.sedona-cool{
+  font-size: 14px;
+  font-family: "PT Sans";
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 26px;
+  font-weight: normal;
+  
+}
+.interest-side b {
+  font-size: 30px;
+  font-family: "PT Sans";
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 24px;
+ }
+ .interest-side p {
+ font-size: 14px;	
+ line-height: 24px;
+ color: #000000;
+ }
+ .search-hotels{
+ 	color:#ffffff;
+ 	font-size:21px;
+ 	font-weight:bold;
+ 	line-height:26px;
+ 	text-transform: uppercase;
+ 	background-color:#766357;
+ }
+ .main-footer a{
+ 	font-size:21px;
+ 	font-weight:bold;
+ 	text-decoration:none;
+ 	color:#000000;
+ }
+ .footer-creator-info b{
+font-size:14px;
+color:#000000;
+line-height:26px;
+ }
+    
+  .visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+ 
+}
+
+
+
