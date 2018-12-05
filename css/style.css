@@ -1,0 +1,196 @@
+body {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    background-color:#FFFFFF;
+}
+a {
+	text-decoration:none;
+}
+.main-navigation{
+	font-size:14px;
+	font-family:"PT Sans", "Arial", sans-serif;;
+	color:#000000;
+	background-color:#FFFFFF;
+	font-weight:bold;
+	
+}
+.site-navigation{
+	list-style: none;
+}
+.site-navigation a{
+	color:#000000;
+}
+.site-navigation a:hover,
+.site-navigation a:focus{
+color:#7FBFF6;
+}
+.picture-mountains{
+  background-image:url("../img/sedona.jpg");
+  width:1200px;
+  height:773px;
+}
+.about-sedona{
+  font-size: 21px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 26px;
+  
+}
+.sedona-cool{
+  font-size: 14px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 26px;
+  font-weight: normal;
+  
+}
+.interest-side b {
+  font-size: 30px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 24px;
+ }
+ .interest-side p {
+ font-size: 14px;	
+ line-height: 24px;
+ color: #000000;
+ }
+ .search-hotels{
+ 	color:#ffffff;
+ 	font-size:21px;
+ 	font-weight:bold;
+ 	line-height:26px;
+ 	text-transform: uppercase;
+ 	background-color:#766357;
+ }
+ .main-footer a{
+ 	font-size:21px;
+ 	font-weight:bold;
+ 	text-decoration:none;
+ 	color:#000000;
+ }
+ .footer-creator-info b{
+font-size:14px;
+color:#000000;
+line-height:26px;
+ }
+ .container-inner{
+  background-image: url("../img/found-layer.png");
+  width: 1200px;
+  height: 540px;
+ }
+ .found{
+   font-size: 21px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 26px;
+ }
+.found-range ul{
+  list-style:none;
+ }
+ .sorting{
+  font-size: 12px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-decoration:none;
+  border:none;
+ }
+
+ .sorting-price{
+  font-size: 12px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #81b3d2;
+  text-transform: uppercase;
+  line-height: 1.5;
+ }
+.sorting-type{
+  font-size: 12px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #dadada;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
+}
+.sorting-rating{
+ font-size: 12px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #dadada;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2; 
+}
+.result-info-header{
+  font-size: 21px;
+  font-family: "PT Sans", "Arial", sans-serif;;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 26px;
+  text-decoration:none;
+}
+.result-info b{
+  font-size:14px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: normal;
+  color:#000000;
+  text-transform: uppercase;
+  line-height: 21px;
+   }
+  .more-info-hotel{
+font-size: 14px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #ffffff;
+  background-color: #81b3d2;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-top: 16px;
+  padding: 3px 17px;
+  
+}
+.booking-now{
+  font-size: 14px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #ffffff;
+  background-color: #766357;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-top: 16px;
+  padding: 3px 17px;
+}
+.rating{
+  font-size: 14px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 21px;
+  color: #666666;
+  background-color: #f2f2f2;
+}
+  .visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+ }
+
+
+
+
+
