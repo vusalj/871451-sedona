@@ -1,4 +1,5 @@
 body {
+  
     text-transform: uppercase;
     color: #000000;
     font-family: "PT Sans", "Arial", sans-serif;
@@ -6,6 +7,7 @@ body {
     font-weight: normal;
     line-height: 21px;
     background-color:#FFFFFF;
+    margin:0;
 }
 a {
 	text-decoration:none;
@@ -16,44 +18,64 @@ a {
 	color:#000000;
 	background-color:#FFFFFF;
 	font-weight:bold;
+  width:1200px;
+  height:56px;
 	
 }
+.main-navigation .main-list a:hover,
+.main-navigation .main-list a:focus{
+  color:#81B3D2;
+}
+.main-navigation .main-list a:active{
+color:#b2b2b2;
+}
+
 .site-navigation{
 	list-style: none;
 }
 .site-navigation a{
 	color:#000000;
 }
+
 .site-navigation a:hover,
 .site-navigation a:focus{
 color:#7FBFF6;
 }
+
 .picture-mountains{
   background-image:url("../img/sedona.jpg");
   width:1200px;
   height:773px;
 }
 .about-sedona{
+  width:1200px;
+  padding:50px 0;
+  text-align:center;
+}
+.small-city{
   font-size: 21px;
   font-family: "PT Sans", "Arial", sans-serif;;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 26px;
+  margin-top:11px;
+  margin-bottom:27px;
   
 }
+
 .sedona-cool{
   font-size: 14px;
-  font-family: "PT Sans", "Arial", sans-serif;;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
   text-transform: uppercase;
   line-height: 26px;
   font-weight: normal;
-  
-}
+  margin-bottom:0px;
+ }
 .interest-side b {
   font-size: 30px;
-  font-family: "PT Sans", "Arial", sans-serif;;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
@@ -72,21 +94,79 @@ color:#7FBFF6;
  	text-transform: uppercase;
  	background-color:#766357;
  }
+ .search-hotels:hover,
+ .seacrh-hotels:focus{
+  background-color: #604E43;
+ }
+ .search-hotels:active{
+  background-color:#503E33;
+ }
+ [type="submit"]{
+  font-size: 21px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight:bold;
+  line-height: 26px;
+  background-color:#81B3D2;
+  text-transform: uppercase;
+  color:#ffffff;
+  border:medium none;
+ }
+ 
+ [type="submit"]:hover,
+ [type="submit"]:focus{
+   background-color:#669EC0;
+   color:#ffffff;
+ }
+ [type="submit"]:active{
+  background-color:#5496bd;
+  color:#88b6d1;
+ }
  .main-footer a{
  	font-size:21px;
  	font-weight:bold;
  	text-decoration:none;
- 	color:#000000;
+ 	color:#000000; 
  }
- .footer-creator-info b{
-font-size:14px;
-color:#000000;
-line-height:26px;
+ .main-footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:1200px;
+  padding:37px 0;
+  background:#fefefe;
  }
+ .footer-space{
+  position:absolute;
+  z-index:2;
+  bottom:0;
+  background:#FFFFFF;
+ }
+.footer-creator-info {
+  padding-right:98px;
+ }
+ .footer-creator-info a{
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  color:#000000;
+  font-size:14px;
+  line-height:26px;
+ }
+ .footer-creator-info:hover .creator{
+background-position:-123px 0px;
+ }
+ .footer-creator-info:active .creator{
+background-position:-246px 0px
+ }
+ .container{
+  margin-top:57px;
+ }
+
  .container-inner{
   background-image: url("../img/found-layer.png");
   width: 1200px;
   height: 540px;
+
  }
  .found{
    font-size: 21px;
@@ -101,7 +181,7 @@ line-height:26px;
  }
  .sorting{
   font-size: 12px;
-  font-family: "PT Sans", "Arial", sans-serif;;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
   text-transform: uppercase;
   line-height: 1.5;
@@ -125,24 +205,51 @@ line-height:26px;
   text-decoration: none;
   border-bottom: 1px dotted #81b3d2;
 }
+.sorting-type:hover,
+.sorting-type:focus{
+  color:#81b3d2;
+}
+.sorting-type:active{
+  color:#000000;
+  text-decoration: none;
+  border: none;
+}
 .sorting-rating{
  font-size: 12px;
-  font-family: "PT Sans", "Arial", sans-serif;;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #dadada;
   text-transform: uppercase;
   line-height: 1.5;
   text-decoration: none;
   border-bottom: 1px dotted #81b3d2; 
 }
-.result-info-header{
+.sorting-rating:hover,
+.sorting-rating:focus{
+  color:#81b3d2;
+}
+.sorting-rating:active{
+  color:#000000;
+  text-decoration: none;
+  border: none;
+}
+
+.result-info-header a{
   font-size: 21px;
-  font-family: "PT Sans", "Arial", sans-serif;;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 26px;
   text-decoration:none;
 }
+.result-info-header a:hover,
+.result-info-header a:focus{
+  color:#81B3D2;
+}
+.result-info-header a:active{
+color:#b2b2b2;
+}
+
 .result-info b{
   font-size:14px;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -152,7 +259,7 @@ line-height:26px;
   line-height: 21px;
    }
   .more-info-hotel{
-font-size: 14px;
+  font-size: 14px;
   font-family: "PT Sans", "Arial", sans-serif;
   color: #ffffff;
   background-color: #81b3d2;
@@ -163,6 +270,15 @@ font-size: 14px;
   padding: 3px 17px;
   
 }
+.more-info-hotel:hover,
+.more-info-hotel:focus{
+  background-color:#669EC0;
+  }
+.more-info-hotel:active{
+  background-color:#5496bd;
+  color:#88b6d1;
+  }
+  
 .booking-now{
   font-size: 14px;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -174,6 +290,14 @@ font-size: 14px;
   margin-top: 16px;
   padding: 3px 17px;
 }
+.booking-now:active{
+  background-color:#503e33;
+  color:#857871;
+}
+.booking-now:hover,
+.booking-now:focus{
+  background-color:#604e43;
+}
 .rating{
   font-size: 14px;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -182,15 +306,98 @@ font-size: 14px;
   color: #666666;
   background-color: #f2f2f2;
 }
-  .visually-hidden {
+.footer-left-sign a{
+font-size: 21px;
+font-weight: bold;
+text-decoration: none;
+color: #000000;
+padding-left: 132px;
+}
+.footer-social{
+background-color:#81b3d2;
+text-decoration: none;
+font-size: 23px;
+line-height: 20px;
+color: #ffffff;
+}
+.footer-social a:hover{
+background:#669ec0;
+}
+.footer-social a:active{
+  background:#5496bd;
+  color:#88b6d1;
+}
+.visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
  }
+/*Временно для сетки*/
 
+.main-header{
+position:relative;
+top:0;
+left:50%;
+margin-left:-69px;
+width:1200px;
+margin-right:auto;
+margin-left:auto;
+box-shadow:0px 0px 15px 5px #000101;
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+    margin: 0;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    line-height: 26px;
+}
 
+.main-logo{
+  position: absolute;
+    top: 0;
+    left: 50%;
+    vertical-align: transformX(-50%);
+    width:140px;
+    height:71px;
+  }
 
+.site-navigation li{
+  box-sizing: border-box;
+    width: 240px;
+    list-style: none;
+}
+.site-navigation li:nth-child(1){
+padding-left:72px;
+}
+.site-navigation li:nth-child(2){
+  margin-right:240px;
+  text-align:center;
+}
+.site-navigation li:nth-child(3){
+  text-align:center;
+}
+.site-navigation li:nth-child(4){
+  text-align:right;
+  padding-right:72px;
+}
+ul{
+padding:0;
+}
 
-
+.picture-mountains{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  background:#99a3ae;
+  background-image:url("../img/welcome-to-sedona.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  z-index:1;
+}
+.picture-welcome{
+  margin-top:76px;
+  margin-bottom:23px;
+}
