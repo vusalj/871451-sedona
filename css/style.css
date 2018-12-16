@@ -340,14 +340,48 @@ background-position: -246px 0px
   min-height: 1590px;
   margin-top: 57px;
  }
-
+  .selection-block {
+    display: flex;
+    justify-content: space-between;
+    top: 55px;
+    width: auto;
+    min-height: 305px;
+  }
  .container-inner {
+  display: flex;
+  flex-direction: column;
   background-image: url("../img/found-layer.png");
-  width: 1200px;
-  min-height: 765px;
+  width: auto;
+  min-height: 545px;
+  }
+  .results-frm {
+ position: absolute;
+ flex-direction: column;
+ top: 360px;
+ width: 1200px;
+ min-height: 455px;
 
  }
-
+ .result-category {
+  display: flex;
+  padding: 25px 72px;
+  width: 1200px;
+  min-height: 151px;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+ }
+ .result-image {
+  width: 165px;
+  height: 90px;
+  border-style: none;
+ }
+  .found-range {
+    position: absolute;
+    top: 275px;
+    width: auto;
+    min-height: 90px;
+  }
  .found{
    font-size: 21px;
   font-family: "PT Sans", "Arial", sans-serif;;
@@ -412,7 +446,14 @@ background-position: -246px 0px
   text-decoration: none;
   border: none;
 }
-
+.result-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 781px;
+  min-height: 100px;
+  flex-wrap: wrap;
+}
 .result-info-header a {
   font-size: 21px;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -422,6 +463,11 @@ background-position: -246px 0px
   line-height: 26px;
   text-decoration:none;
 }
+.result-info-header {
+  min-width: 750px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
 .result-info-header a:hover,
 .result-info-header a:focus {
   color: #81B3D2;
@@ -430,6 +476,22 @@ background-position: -246px 0px
 color: #b2b2b2;
 }
 
+.reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 145px;
+  margin-right: 520px;
+
+}
+.more-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 110px;
+  margin-top: 0;
+  margin-right: 10px;
+}
 .result-info b {
   font-size: 14px;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -478,13 +540,25 @@ color: #b2b2b2;
 .booking-now:focus {
   background-color: #604e43;
 }
-.rating {
+.rating-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  min-width: 110px;
+  min-height: 97px;
+}
+.rating-info {
   font-size: 14px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   line-height: 21px;
   color: #666666;
   background-color: #f2f2f2;
+}
+.rating-stars {
+  margin-bottom: 45px;
+  align-self: flex-end;
 }
 .footer-left-sign a {
 font-size: 21px;
@@ -583,9 +657,8 @@ padding-left: 72px;
 ul {
 padding: 0;
 }
-
-
 .picture-welcome {
   margin-top: 76px;
   margin-bottom: 23px;
 }
+
